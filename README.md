@@ -1,4 +1,4 @@
-This little clutch connects to the list of munin nodes
+This little crutch connects to the list of munin nodes
 and verifies free disc space. If connection fails or free disc space is above threshold
 then it displays a line.
 
