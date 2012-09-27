@@ -28,7 +28,7 @@ foreach my $name (@nodes) {
 }
 
 sub read_nodes {
-	open(my $fh, 'nodes');
+	open(my $fh, $list);
 	my @list;
 	while(my $node = <$fh>) {
 		chomp $node;
